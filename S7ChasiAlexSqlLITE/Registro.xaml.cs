@@ -34,7 +34,10 @@ namespace S7ChasiAlexSqlLITE
 
                 limpiarForm();
 
-               // Navigation.PushAsync(new ConsultaRegistro());
+                Navigation.PushAsync(new Login());
+
+
+                // Navigation.PushAsync(new ConsultaRegistro());
 
             }
             catch (Exception ex)
