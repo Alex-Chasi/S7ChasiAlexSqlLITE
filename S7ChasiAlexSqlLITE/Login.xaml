@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="S7ChasiAlexSqlLITE.Login">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <Label Text="Ventana de Login" FontSize="Medium"/>
             <Entry x:Name="txtUsuario" Placeholder="Ingrese el Usuario"/>
@@ -12,5 +13,6 @@
 
 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
