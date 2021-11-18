@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S7ChasiAlexSqlLITE.Elemento">
+    <ContentPage.Content>
+        
+            <StackLayout>
+                <Label Text="mensaje"/>
+                <Label Text="Nombre: "/>
+                <Entry x:Name="Nombre" Placeholder="Nombre"/>
+                <Label Text="Usuario: "/>
+                <Entry x:Name="Usuario" Placeholder="Usuario"/>
+                <Label Text="Contrasenia: "/>
+                <Entry x:Name="Contrasenia" Placeholder="Contrasenia" />
+                <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" Background="LawnGreen"/>
+                <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" Background="Red"/>
+            </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
